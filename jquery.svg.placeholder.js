@@ -1,7 +1,8 @@
-/*		Themestore Place Holder
-*    	Neil Charlton. Themesto.re
-*		Requires jquery 1.7
-*     	Place Holder is freely distributable under the MIT license.
+/*		
+*	Themestore tsPlaceHold
+*	Neil Charlton. Themesto.re
+*	Requires jquery 1.7
+*	tsPlaceHold is freely distributable under the MIT license.
 */
 
 $.fn.tsPlaceHold = function(options) {
@@ -19,7 +20,7 @@ $.fn.tsPlaceHold = function(options) {
 			var text = (parts[2]) ? parts[2] : parts[0] + ' X ' + parts[1];
 
 			/*
-			*	Calculate the vertical and horizonal position of text?
+			*	Calculate the vertical and horizonal position of text
 			*/
 			var vert = (parts[1]/20)*11;
 			var horiz = (parts[0]/20)*10;
@@ -39,9 +40,9 @@ $.fn.tsPlaceHold = function(options) {
 			}).append(svg).insertAfter($this);
 
 			/*
-			*	Tody up and remove the image
+			*	Tidy up and remove the image
 			*/
 			$this.remove();
 		});
 
-	};
+};

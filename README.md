@@ -10,7 +10,7 @@ A simple tool that helps with placeholder images when building a theme.
     <script src="jquery.svg.placeholder.js"></script>
 
 
-	<!-- Call the plugin -->
+<!-- Call the plugin -->
 	<script type="text/javascript">
 			$(function(){
 		      $('img[data-ph]').tsPlaceHold();
@@ -18,8 +18,8 @@ A simple tool that helps with placeholder images when building a theme.
 	</script>
 	
 		
-	<!-- start using placeholders -->
-	<img data-ph="250:200" />
+<!-- start using placeholders -->
+<img data-ph="250:200" />
 	
-	<!-- 3rd option is text to be written in image -->
-	<img data-ph="250:200:content" />
+<!-- 3rd option is text to be written in image -->
+<img data-ph="250:200:content" />
